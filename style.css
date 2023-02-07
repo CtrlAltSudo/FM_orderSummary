@@ -23,25 +23,27 @@ body {
   padding: 1rem;
 }
 .box {
-  background-color: #F8F9FE;
+  background-color: #f8f9fe;
   display: flex;
   border-radius: 0.5em;
   gap: 1rem;
   justify-content: center;
   align-items: center;
   min-width: 100%;
-
 }
 .box_item_column {
   display: flex;
   flex-direction: column;
 }
 .box_item_4 {
-    flex-grow: 2;
-    padding-left: 4rem;
+  flex-grow: 2;
+  padding-left: 4rem;
 }
 .box_item_1 {
-    padding-left: 1rem;
+  padding-left: 1rem;
+}
+.payment_button {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 p {
@@ -68,4 +70,7 @@ img {
 }
 .cancel_link {
   padding-bottom: 1em;
+}
+.attribution {
+  margin-top: 1rem;
 }
