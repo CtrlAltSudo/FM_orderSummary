@@ -1,5 +1,6 @@
 body {
-  background-image: ;
+  background: url("/imgs/pattern-background-desktop.svg") no-repeat;
+  background-color: #e0e8ff;
   height: 100vh;
 }
 .main_container {
@@ -11,6 +12,7 @@ body {
   max-width: 25%;
   margin: 10vh auto 0 auto;
   border-radius: 5%;
+  background-color: white;
 }
 
 .second_container {
@@ -21,7 +23,7 @@ body {
   padding: 1rem;
 }
 .box {
-  background-color: rgb(220, 221, 221);
+  background-color: #F8F9FE;
   display: flex;
   border-radius: 0.5em;
   gap: 1rem;
@@ -53,10 +55,15 @@ img {
   max-height: 100%;
   border-radius: 1em 1em 0 0;
 }
+.img_svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+}
 .payment_button {
   background-color: blue;
   border-radius: 0.5em;
-  padding: 0.5em 5em 0.5em 5em;
+  padding: 0.8em 5em 0.8em 5em;
   color: white;
 }
 .cancel_link {
