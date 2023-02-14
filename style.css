@@ -97,6 +97,13 @@ img {
   padding-bottom: 1em;
 }
 .attribution {
-  margin: 0 auto; 
-  width: 30rem;
+  margin: 1rem 0 auto; 
+  min-width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_container {
+    max-width: 100%;
+  }
 }
